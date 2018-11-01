@@ -1,0 +1,74 @@
+/*WORK*/
+.work {
+  padding-top: 15px; }
+  .work__wrapper {
+    display: inline;
+    position: relative; }
+  .work__circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: black; }
+    .work__circle:hover {
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+    .work__circle::after {
+      content: "";
+      position: absolute;
+      border-left: 4px solid black;
+      height: 70px;
+      top: 70px;
+      right: 33px; }
+  .work__title {
+    float: right;
+    padding-right: 210px;
+    padding-top: 23px;
+    position: relative; }
+    .work__title::after {
+      content: "";
+      position: absolute;
+      border-top: 2px solid #808080;
+      width: 245px;
+      top: 38px;
+      left: 290px; }
+    .work__title:hover::after {
+      content: "";
+      position: absolute;
+      border-top: 3px solid #0000FF;
+      width: 285px;
+      top: 38px;
+      left: 250px;
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+
+.title__right--oil::before {
+  content: "";
+  position: absolute;
+  border-top: 3px solid black;
+  width: 100px;
+  top: 24px;
+  left: -143px; }
+
+.fa-briefcase {
+  position: absolute;
+  top: 7px;
+  right: 11px;
+  color: #FFF; }
+
+.fa-briefcase:hover {
+  position: absolute;
+  top: 7px;
+  right: 11px;
+  color: #0000FF;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: -webkit-transform 0.45s;
+  -o-transition: transform 0.45s;
+  transition: transform 0.45s;
+  transition: transform 0.45s, -webkit-transform 0.45s; }

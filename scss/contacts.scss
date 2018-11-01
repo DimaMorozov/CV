@@ -1,0 +1,21 @@
+/*CONTACTS*/
+
+.contacts {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+    &__title {
+    padding-bottom: 20px;
+  }
+
+&__item {
+    list-style-type: none;
+    color: #0000FF;
+    margin-bottom: 10px;
+  }
+
+&_info {
+    margin-left: 10px;
+    color: #696969;
+  }
+}

@@ -1,0 +1,139 @@
+/*EDUCATION*/
+.education {
+  padding-top: 15px; }
+  .education__wrapper {
+    display: inline;
+    position: relative; }
+  .education__circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: black; }
+    .education__circle:hover {
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+    .education__circle::after {
+      content: "";
+      position: absolute;
+      border-left: 4px solid black;
+      height: 210px;
+      top: 70px;
+      right: 33px; }
+  .education__title {
+    float: right;
+    padding-right: 300px;
+    padding-top: 15px;
+    position: relative; }
+    .education__title::after {
+      content: "";
+      position: absolute;
+      border-top: 2px solid #808080;
+      width: 250px;
+      top: 30px;
+      left: 289px; }
+    .education__title:hover::after {
+      content: "";
+      position: absolute;
+      border-top: 3px solid #0000FF;
+      width: 368px;
+      top: 30px;
+      left: 170px;
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+
+.fa-graduation-cap {
+  position: absolute;
+  top: 11px;
+  right: 5px;
+  color: #FFF; }
+
+.fa-graduation-cap:hover {
+  position: absolute;
+  top: 11px;
+  right: 5px;
+  color: #0000FF;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transition: -webkit-transform 0.45s;
+  transition: -webkit-transform 0.45s;
+  -o-transition: transform 0.45s;
+  transition: transform 0.45s;
+  transition: transform 0.45s, -webkit-transform 0.45s; }
+
+.title__right {
+  margin-left: 230px;
+  padding-bottom: 7px;
+  position: relative; }
+  .title__right:hover::before {
+    width: 500px;
+    border-top: 4px solid #0000FF;
+    -webkit-box-shadow: 0 0 20px #0000FF;
+    box-shadow: 0 0 20px #0000FF; }
+  .title__right--beetroot::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid black;
+    width: 100px;
+    top: 24px;
+    left: -143px; }
+  .title__right--university::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid black;
+    width: 100px;
+    top: 24px;
+    left: -143px; }
+  .title__right--school::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid black;
+    width: 100px;
+    top: 24px;
+    left: -143px; }
+
+.text__right {
+  margin-left: 230px;
+  padding-bottom: 25px;
+  display: inline-block;
+  position: relative; }
+
+.year {
+  color: #0000FF;
+  font-style: italic; }
+  .year__beetroot--start {
+    position: absolute;
+    top: 22px;
+    right: -20px; }
+  .year__beetroot--finish {
+    position: absolute;
+    top: -2px;
+    right: 231px; }
+  .year__university--start {
+    position: absolute;
+    top: 47px;
+    right: 229px; }
+  .year__university--finish {
+    position: absolute;
+    top: -2px;
+    right: 364px; }
+  .year__school--start {
+    position: absolute;
+    top: 46px;
+    right: 364px; }
+  .year__school--finish {
+    position: absolute;
+    top: -2px;
+    right: 230px; }
+  .year__oil--start {
+    position: absolute;
+    top: 22px;
+    right: -16px; }
+  .year__oil--finish {
+    position: absolute;
+    top: 0px;
+    right: 307px; }

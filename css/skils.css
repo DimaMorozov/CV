@@ -1,0 +1,72 @@
+/*SKILS*/
+.skills__title {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.skills__item {
+  padding-bottom: 10px;
+  text-transform: uppercase; }
+
+.skills__progress {
+  border: 1px solid #0000FF;
+  border-left: none;
+  width: 35%;
+  height: 10px;
+  float: right;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: black;
+  border-bottom: 1px dashed #0000FF;
+  position: relative; }
+
+.skills__progress:before, .skills__progress:after {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0; }
+
+.skills__progress:before {
+  content: attr(title);
+  width: 30px;
+  background-color: rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 20px #0000FF;
+  box-shadow: 0 0 20px #0000FF;
+  bottom: -9px;
+  left: 130px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #FFF;
+  border-radius: 5px; }
+
+.skills__progress:after {
+  content: "";
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid rgba(0, 0, 0, 0.75);
+  border-bottom: 10px solid transparent;
+  left: 120px;
+  bottom: 0px;
+  margin-left: -10px; }
+
+.skills__progress:hover:before, .skills__progress:hover:after {
+  opacity: 1;
+  visibility: visible; }
+
+.skills__scale {
+  height: 10px;
+  background-color: #0000FF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .skills__scale:hover {
+    height: 19px; }
+
+.skills__scale--html {
+  width: 70%; }
+
+.skills__scale--css {
+  width: 60%; }
+
+.skills__scale--jscript {
+  width: 50%; }

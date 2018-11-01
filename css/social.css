@@ -1,0 +1,97 @@
+/*SOCIAL*/
+.social {
+  padding-top: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .social__wrapper {
+    display: inline;
+    position: relative; }
+  .social__circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: black; }
+    .social__circle:hover {
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+    .social__circle::after {
+      content: "";
+      position: absolute;
+      border-left: 4px solid black;
+      height: 200px;
+      top: 70px;
+      right: 33px; }
+  .social__title {
+    float: right;
+    padding-right: 348px;
+    padding-top: 23px;
+    position: relative; }
+    .social__title::after {
+      content: "";
+      position: absolute;
+      border-top: 2px solid #808080;
+      width: 245px;
+      top: 38px;
+      left: 287px; }
+    .social__title:hover::after {
+      content: "";
+      position: absolute;
+      border-top: 3px solid #0000FF;
+      width: 410px;
+      top: 38px;
+      left: 123px;
+      -webkit-box-shadow: 0 0 20px #0000FF;
+      box-shadow: 0 0 20px #0000FF; }
+  .social__icon {
+    margin-left: 248px; }
+
+.title__right--networks::before {
+  content: "";
+  position: absolute;
+  border-top: 3px solid black;
+  width: 100px;
+  top: 24px;
+  left: -143px; }
+
+.title__right--examples::before {
+  content: "";
+  position: absolute;
+  border-top: 3px solid black;
+  width: 100px;
+  top: 100px;
+  left: -143px; }
+
+.title__right--examples {
+  padding-top: 70px; }
+
+.fa-gem {
+  position: absolute;
+  top: 14px;
+  right: 8px;
+  color: #FFF; }
+  .fa-gem:hover {
+    position: absolute;
+    top: 14px;
+    right: 8px;
+    color: #0000FF;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transition: -webkit-transform 0.45s;
+    transition: -webkit-transform 0.45s;
+    -o-transition: transform 0.45s;
+    transition: transform 0.45s;
+    transition: transform 0.45s, -webkit-transform 0.45s; }
+
+.link {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #0000FF; }
+  .link__github {
+    margin-left: 230px;
+    padding-top: 10px;
+    display: inline-block; }

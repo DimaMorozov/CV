@@ -1,0 +1,87 @@
+/*WORK*/
+
+.work {
+    padding-top: 15px;
+
+    &__wrapper {
+        display: inline;
+        position: relative;
+    }
+
+    &__circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid black;
+        position: relative;
+        display: inline-block;
+        margin-left: 50px;
+        background-color: black;
+
+        &:hover {
+            box-shadow: 0 0 20px #0000FF;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            border-left: 4px solid black;
+            height: 70px;
+            top: 70px;
+            right: 33px;
+        }
+    }
+
+    &__title {
+        float: right;
+        padding-right: 210px;
+        padding-top: 23px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            border-top: 2px solid #808080;
+            width: 245px;
+            top: 38px;
+            left: 290px;
+        }
+
+        &:hover::after {
+            content: "";
+            position: absolute;
+            border-top: 3px solid #0000FF;
+            width: 285px;
+            top: 38px;
+            left: 250px;
+            box-shadow: 0 0 20px #0000FF;
+        }
+    }
+}
+
+.title__right--oil::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid black;
+    width: 100px;
+    top: 24px;
+    left: -143px;
+}
+
+.fa-briefcase {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    color: #FFF;
+}
+
+.fa-briefcase:hover {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    color: #0000FF;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transition: transform 0.45s;
+}
