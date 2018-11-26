@@ -1,0 +1,52 @@
+@-moz-document url-prefix() {
+ .year {
+
+    &__beetroot--start {
+        position: absolute;
+        top: 22px;
+        right: -20px;
+    }
+
+    &__beetroot--finish {
+        position: absolute;
+        top: 46px;
+        right: -22px;
+    }
+
+    &__university--start {
+        position: absolute;
+        top: 95px;
+        right: -22px;
+    }
+
+    &__university--finish {
+        position: absolute;
+        top: 119px;
+        right: -22px;
+    }
+
+    &__school--start {
+        position: absolute;
+        top: 168px;
+        right: -22px;
+    }
+
+    &__school--finish {
+        position: absolute;
+        top: 193px;
+        right: -22px;
+    }
+
+    &__oil--start {
+        position: absolute;
+        top: 22px;
+        right: -22px;
+    }
+
+    &__oil--finish {
+        position: absolute;
+        top: 45px;
+        right: -41px;
+    }
+}
+}

@@ -44,13 +44,13 @@
             border-top: 2px solid #808080;
             width: 250px;
             top: 30px;
-            left: 289px;
+            left: 289px; 
         }
 
         &:hover::after {
             content: "";
             position: absolute;
-            border-top: 3px solid #0000FF;
+            border-top: 4px solid #0000FF;
             width: 368px;
             top: 30px;
             left: 170px;
@@ -71,9 +71,6 @@
     top: 11px;
     right: 5px;
     color: #0000FF;
-    -webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -o-transform: scale(1.5);
     transition: transform 0.45s;
 }
 
@@ -174,4 +171,56 @@
         top: 0px;
         right: 307px;
     }
+
+   @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   /* стили только для IE10 IE11 */
+    
+    &__beetroot--start {
+        position: absolute;
+        top: 22px;
+        right: 228px;
+    }
+
+    &__beetroot--finish {
+        position: absolute;
+        top: 47px;
+        right: 229px;
+    }
+
+    &__university--start {
+        position: absolute;
+        top: 97px;
+        right: 229px;
+    }
+
+    &__university--finish {
+        position: absolute;
+        top: 120px;
+        right: 229px;
+    }
+
+    &__school--start {
+        position: absolute;
+        top: 171px;
+        right: 229px;
+    }
+
+    &__school--finish {
+        position: absolute;
+        top: 194px;
+        right: 229px;
+    }
+
+    &__oil--start {
+        position: absolute;
+        top: 24px;
+        right: 319px;
+    }
+
+    &__oil--finish {
+        position: absolute;
+        top: 45px;
+        right: 305px;
+    }
+   }
 }
